@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* css validate disable */
+@import "tailwindcss";
+
+/* Optional: global styling */
+html, body, #root {
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-neutral-950 text-white antialiased;
+}
