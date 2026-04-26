@@ -7,6 +7,8 @@ import projects from "./utils/project-details"
 export default function Projects() {
   const [selectedProject, setSelectedProject] = useState<any>(null)
 
+  console.log(import.meta.env.BASE_URL)
+
   return (
     <section
       id="projects"
