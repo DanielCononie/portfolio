@@ -101,7 +101,7 @@ export default function Contact() {
 
             {/* RESUME */}
             <motion.a
-              href={resume}
+              href={`${import.meta.env.BASE_URL}resume.pdf` || resume}
               whileHover={{ y: -4, scale: 1.01 }}
               className="group rounded-2xl border border-cyan-400/30 bg-cyan-400/10 p-5 transition hover:bg-cyan-400/20"
             >
