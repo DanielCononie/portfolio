@@ -6,7 +6,7 @@ import { useState } from "react"
 const email = "danielcononie1278@gmail.com"
 const linkedin = "https://www.linkedin.com/in/daniel-cononie-14a519268"
 const github = "https://github.com/DanielCononie"
-const resume = "/resume.pdf"
+// const resume = "/resume.pdf"
 
 export default function Contact() {
   const [copied, setCopied] = useState(false)
